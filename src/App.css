@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('./assets/kanit.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.winner-name {
+    color: rgb(255, 149, 0);
+    animation: bubble 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bubble {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
