@@ -2798,6 +2798,7 @@ dependencies = [
  "uuid 1.1.2",
  "webkit2gtk",
  "webview2-com",
+ "win7-notifications",
  "windows 0.37.0",
 ]
 
@@ -3420,6 +3421,16 @@ name = "wildmatch"
 version = "2.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ee583bdc5ff1cf9db20e9db5bb3ff4c3089a8f6b8b31aff265c9aba85812db86"
+
+[[package]]
+name = "win7-notifications"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "210952d7163b9ed83a6fd9754ab2a101d14480f8491b5f1d6292771d88dbee70"
+dependencies = [
+ "once_cell",
+ "windows-sys",
+]
 
 [[package]]
 name = "winapi"
